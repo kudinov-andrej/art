@@ -14,25 +14,18 @@ const buttonCloseThree = programStepThree.querySelector('.program__button');
 
 
 
-function openMenu(element, item, color) {
-  element.classList.add('program__menu_type_active');
-  item.classList.add('program__button_type_aktive');
-  color.classList.add('program__punct_type_aktive');
- 
+function openCloseMenu(element, item, color) {
+   
+  element.classList.toggle('program__menu_type_active');
+  item.classList.toggle('program__button_type_aktive');
+  color.classList.toggle('program__punct_type_aktive'); 
+
+
 };
 
-function closeMenu(element, item, color) {
-  element.classList.remove('program__menu_type_active');
-  item.classList.remove('program__button_type_aktive');
-  color.classList.remove('program__punct_type_aktive');
- 
-};
 
-programMenu.addEventListener('click', () => closeMenu(programMenu, buttonClose, programPunct));
-programMenuTwo.addEventListener('click', () => closeMenu(programMenuTwo, buttonCloseTwo, programPunctTwo));
-programMenuThree.addEventListener('click', () => closeMenu(programMenuThree, buttonCloseThree, programPunctThree));
+buttonCloseThree.addEventListener('click', () => openCloseMenu(programMenuThree, buttonCloseThree, programPunctThree));
+buttonCloseTwo.addEventListener('click', () => openCloseMenu(programMenuTwo, buttonCloseTwo, programPunctTwo));
+buttonClose.addEventListener('click', () => openCloseMenu(programMenu, buttonClose, programPunct));
 
 
-buttonCloseThree.addEventListener('click', () => openMenu(programMenuThree, buttonCloseThree, programPunctThree));
-buttonCloseTwo.addEventListener('click', () => openMenu(programMenuTwo, buttonCloseTwo, programPunctTwo));
-buttonClose.addEventListener('click', () => openMenu(programMenu, buttonClose, programPunct));
