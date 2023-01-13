@@ -594,11 +594,22 @@ color: #FFFFFF;
 .footer__pay {
    margin-right: 11%;
 }
+.pay__text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 13px;
+    max-width: 200px;
+    font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+}
+
 .pay__img {
     margin: 0;
     margin-right: 28px;
     max-width: 63px;
 }
+
 .footer_link {
     margin: 0;
     max-width: 223px;
@@ -607,9 +618,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 200%;
-/* or 28px */
-
 letter-spacing: 0.01em;
-
 color: #FFFFFF;
 }
