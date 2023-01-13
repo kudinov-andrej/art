@@ -557,6 +557,10 @@ color: rgba(255, 255, 255, 0.6);
     justify-content: center;
     margin-top: 24px;
 }
+.form__checkbox {
+    width: 21px;
+    height: 21px;
+}
 .footer {
     display: flex;
     flex-direction: row;
