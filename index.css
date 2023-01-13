@@ -361,7 +361,6 @@
 .cours__title {
     margin: 0;
     align-self: center;
-    margin-top: -100px;
     margin-bottom: 43px;
     font-weight: 700;
     font-size: 50px;
@@ -429,6 +428,7 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+
 .cours__button:hover {
     opacity: 0.6;
 }
@@ -457,9 +457,11 @@
     flex-direction: row;
     margin-right: 63px;
 }
+
 .bonus__item:last-child {
     margin-right: 0;
 }
+
 .bonus__img {
     margin-right: 36px;
 }
@@ -467,4 +469,143 @@
 .bonus__text {
     margin: 0;
     max-width: 199px;
+}
+
+.form {
+    margin: 0;
+    padding: 0;
+    max-width: 1445px;
+    margin-left: 18.9%;
+    margin-right: 18.9%;
+    display: flex;
+    flex-direction: column;
+    border-top: solid #706470 2px;
+    align-items: center;
+}
+
+.form__promo {
+    margin: 0;
+    margin-top: 23px;
+    margin-bottom: 36px;
+    max-width: 577px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.form__span-red {
+    color: palevioletred;
+}
+
+.form__span-grey {
+    color: gray;
+}
+
+.form__text {
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 345px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.form__body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.form__input {
+    margin: 0;
+    align-self: center;
+    min-width: 458px;
+    margin-bottom: 24px;
+    max-width: 458px;
+    min-height: 60px;
+    background: #393C57;
+border: 1px solid #E2521D;
+border-radius: 8px;
+color: aliceblue;
+font-size: 24px;
+    
+}
+.form__button {
+    width: 458px;
+    align-self: center;
+height: 60px;
+background: #E2521D;
+color: #FFFFFF;
+cursor: pointer;
+
+}
+.checkbox__text {
+    margin: 0;
+    max-width: 421px;
+    font-weight: 400;
+    margin-left: 16px;
+font-size: 12px;
+line-height: 140%;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.form__place-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 66px;
+    margin-bottom: 30px;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+.footer__copyright {
+    margin: 0;
+    max-width: 223px;
+    margin-right: 12%;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 200%;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+
+}
+
+.footer__links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   
+}
+
+.footer__pay {
+   margin-right: 11%;
+}
+.pay__img {
+    margin: 0;
+    margin-right: 28px;
+    max-width: 63px;
+}
+.footer_link {
+    margin: 0;
+    max-width: 223px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 200%;
+/* or 28px */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
 }
