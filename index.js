@@ -12,7 +12,7 @@ const programPunctThree = programStepThree.querySelector('.program__punct');
 const programMenuThree = programStepThree.querySelector('.program__menu');
 const buttonCloseThree = programStepThree.querySelector('.program__button');
 
-
+// функция открытия/закрытия выпадающего меню
 
 function openCloseMenu(element, item, color) {
    
@@ -23,7 +23,24 @@ function openCloseMenu(element, item, color) {
 
 };
 
+// функция плавного скролла
 
+const page = document.querySelector('.page')
+const buttonEnrollToCoursArt = document.querySelector('.art__button')
+const buttonEnrollToCoursCours = document.querySelector('.cours__button')
+
+function enableSmoothScroll() {
+  page.classList.add("page-scrole-on");
+  setTimeout(switchOffSmoothScroll, 2000);
+}
+
+function switchOffSmoothScroll() {
+  page.classList.remove("page-scrole-on");
+}
+
+
+buttonEnrollToCoursArt.addEventListener('click', () => enableSmoothScroll());
+buttonEnrollToCoursCours.addEventListener('click', () => enableSmoothScroll());
 buttonCloseThree.addEventListener('click', () => openCloseMenu(programMenuThree, buttonCloseThree, programPunctThree));
 buttonCloseTwo.addEventListener('click', () => openCloseMenu(programMenuTwo, buttonCloseTwo, programPunctTwo));
 buttonClose.addEventListener('click', () => openCloseMenu(programMenu, buttonClose, programPunct));

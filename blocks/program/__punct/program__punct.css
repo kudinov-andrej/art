@@ -1,0 +1,11 @@
+.program__punct {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    background: #0E1B28;
+    border-radius: 2px;
+}

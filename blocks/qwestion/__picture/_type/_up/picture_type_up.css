@@ -1,0 +1,10 @@
+.picture_type_up {
+    display: block;
+}
+
+@media screen and (max-width: 945px) {
+    .picture_type_up {
+        display: none;
+
+    }
+}

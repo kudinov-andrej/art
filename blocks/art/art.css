@@ -1,0 +1,24 @@
+.art {
+    margin: 0;
+    margin-left: 13.77%;
+    max-width: 633px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 929px) {
+    .art {
+
+        max-width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .art {
+        margin-right: 18px;
+        margin-left: 18px;
+
+    }
+}

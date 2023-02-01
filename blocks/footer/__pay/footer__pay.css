@@ -1,0 +1,10 @@
+.footer__pay {
+    margin-right: 11%;
+}
+
+@media screen and (max-width: 677px) {
+    .footer__pay {
+        margin-bottom: 20px;
+
+    }
+}

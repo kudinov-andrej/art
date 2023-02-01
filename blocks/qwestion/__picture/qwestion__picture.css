@@ -1,0 +1,14 @@
+.qwestion__picture {
+    margin: 0;
+    max-width: 31.07%;
+    margin-right: 55px;
+
+}
+
+@media screen and (max-width: 945px) {
+    .qwestion__picture {
+        margin: 0;
+        max-width: 100%;
+        align-self: center;
+    }
+}

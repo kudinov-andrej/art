@@ -1,0 +1,23 @@
+.program__name {
+    margin: 0;
+    padding: 0;
+    margin-top: 41px;
+    margin-bottom: 41px;
+    margin-left: 72px;
+    max-width: 893px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 510px) {
+    .program__name {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        max-width: 125px;
+        margin-left: 30px;
+
+    }
+}

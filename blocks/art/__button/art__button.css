@@ -1,0 +1,44 @@
+.art__button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    width: 368px;
+    height: 81px;
+    background: #E2521D;
+    box-shadow: 0px 0px 55px rgba(202, 0, 80, 0.51);
+    border-radius: 10px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width: 929px) {
+    .art__button {
+        margin: 0;
+        width: 302px;
+        height: 63px;
+
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .art__button {
+        align-self: center;
+
+    }
+}
+
+.art__button:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,18 @@
+.program__button {
+    margin: 0;
+    padding: 0;
+    margin-right: 57px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../../../image/program-button-off.svg);
+    border-radius: 360%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: none;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.program__button:hover {
+    opacity: 0.6;
+}

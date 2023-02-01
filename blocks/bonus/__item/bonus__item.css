@@ -1,0 +1,18 @@
+.bonus__item {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 929px) {
+    .bonus__item {
+        margin-bottom: 43px;
+
+
+    }
+}
+
+
+.bonus__item:last-child {
+    margin-right: 0;
+}

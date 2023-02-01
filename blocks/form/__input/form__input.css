@@ -1,0 +1,23 @@
+.form__input {
+    margin: 0;
+    align-self: center;
+    min-width: 458px;
+    margin-bottom: 2px;
+    max-width: 458px;
+    min-height: 60px;
+    background: #393C57;
+    border: 1px solid #E2521D;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 24px;
+
+}
+
+@media screen and (max-width: 505px) {
+    .form__input {
+        max-width: 301px;
+        min-width: 301px;
+
+
+    }
+}

@@ -1,0 +1,30 @@
+.education__title {
+    margin: 0;
+    margin-top: 143px;
+    margin-bottom: 97px;
+    max-width: 449px;
+    text-align: center;
+    align-self: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width: 945px) {
+    .education__title {
+        margin-left: 18px;
+        margin-top: 70px;
+        max-width: 298px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: 57px;
+        max-width: 90%;
+        align-self: center;
+
+    }
+}

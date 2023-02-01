@@ -1,0 +1,7 @@
+.form__place-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}

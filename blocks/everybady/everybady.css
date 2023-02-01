@@ -1,0 +1,21 @@
+.everybady {
+    margin: 0;
+    padding: 0;
+    margin-top: 111px;
+    margin-left: 38px;
+    margin-right: 38px;
+    background-image: url(../../image/fon123.png);
+    max-width: 1445px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+@media screen and (max-width: 945px) {
+    .everybady {
+        background-image: none;
+        margin-top: 0;
+    }
+}

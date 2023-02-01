@@ -1,0 +1,22 @@
+.qwestion__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-top: 14px;
+    max-width: 572px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 945px) {
+    .qwestion__title {
+        margin: 0;
+        margin-bottom: 70px;
+        font-size: 30px;
+        line-height: 44px;
+        max-width: 90%;
+        align-self: center;
+    }
+}

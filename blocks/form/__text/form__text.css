@@ -1,0 +1,10 @@
+.form__text {
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 345px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}

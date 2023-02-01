@@ -1,0 +1,21 @@
+.program__title {
+    margin: 0;
+    margin-bottom: 75px;
+    max-width: 314px;
+    align-self: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 945px) {
+    .program__title {
+        margin-bottom: 70px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 44px;
+        max-width: 300px;
+    }
+}

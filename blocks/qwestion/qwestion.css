@@ -1,0 +1,16 @@
+.qwestion {
+    margin: 0;
+    padding: 0;
+    margin-left: 13.77%;
+    margin-right: 13.77%;
+    margin-top: 136px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 945px) {
+    .qwestion {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+}

@@ -1,0 +1,9 @@
+.program {
+    margin: 0;
+    padding: 0;
+    margin-left: 14.53%;
+    margin-right: 14.53%;
+    display: flex;
+    flex-direction: column;
+
+}

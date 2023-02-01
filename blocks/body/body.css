@@ -1,0 +1,27 @@
+.body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1445px;
+    background-color: #252237;
+    color: #FFFFFF;
+    background-image: url(../../image/fon\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+   
+}
+
+@media screen and (max-width: 800px) {
+    .body {
+        max-width: 930px;
+        background-image: url(./image/fon\ 2фф.png);
+        background-position: right top;
+    }
+}

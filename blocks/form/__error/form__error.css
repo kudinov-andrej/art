@@ -1,0 +1,9 @@
+.form__error {
+    min-height: 30px;
+    max-width: 458px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FF0000;
+    vertical-align: top;
+}

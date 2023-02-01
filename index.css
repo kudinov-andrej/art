@@ -1,3 +1,8 @@
+.page {
+    
+}
+
+/*
 .body {
     margin: 0 auto;
     padding: 0;
@@ -15,6 +20,7 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+   
 }
 
 @media screen and (max-width: 800px) {
@@ -61,6 +67,8 @@
 
     }
 }
+
+
 
 
 .art__title {
@@ -130,6 +138,7 @@
     letter-spacing: 3px;
     text-transform: uppercase;
     cursor: pointer;
+    
 }
 
 
@@ -362,6 +371,8 @@
     max-width: 300px;
 }
 
+
+
 .program {
     margin: 0;
     padding: 0;
@@ -445,7 +456,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
+    background: #0E1B28;
+    border-radius: 2px;
 }
+
+
 
 .program__button {
     margin: 0;
@@ -465,6 +481,8 @@
 .program__button:hover {
     opacity: 0.6;
 }
+
+
 
 .program__button_type_aktive {
 
@@ -489,6 +507,8 @@
 .program__menu_type_active {
     display: block;
 }
+
+
 
 .everybady {
     margin: 0;
@@ -608,6 +628,8 @@
         align-self: center;
     }
 }
+
+
 
 
 .cours__picture {
@@ -800,6 +822,18 @@
     color: #FFFFFF;
 }
 
+
+.form__error {
+    min-height: 30px;
+    max-width: 458px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FF0000;
+    vertical-align: top;
+}
+
+
 .form__body {
     margin: 0;
     display: flex;
@@ -810,7 +844,7 @@
     margin: 0;
     align-self: center;
     min-width: 458px;
-    margin-bottom: 24px;
+    margin-bottom: 2px;
     max-width: 458px;
     min-height: 60px;
     background: #393C57;
@@ -849,7 +883,7 @@
 }
 
 
-.checkbox__text {
+.form__checkbox-text {
     margin: 0;
     max-width: 421px;
     font-weight: 400;
@@ -872,6 +906,9 @@
     width: 21px;
     height: 21px;
 }
+
+
+
 
 .footer {
     display: flex;
@@ -933,7 +970,7 @@
     }
 }
 
-.pay__text {
+.footer__pay-text {
     margin: 0;
     padding: 0;
     margin-bottom: 13px;
@@ -943,13 +980,13 @@
     line-height: 150%;
 }
 
-.pay__img {
+.footer__pay-img {
     margin: 0;
     margin-right: 28px;
     max-width: 63px;
 }
 
-.footer_link {
+.footer__link {
     margin: 0;
     max-width: 223px;
     font-family: 'Gilroy';
@@ -960,3 +997,10 @@
     letter-spacing: 0.01em;
     color: #FFFFFF;
 }
+.button__link {
+    margin: 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+*/

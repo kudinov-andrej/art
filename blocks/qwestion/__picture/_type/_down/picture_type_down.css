@@ -1,0 +1,11 @@
+.picture_type_down {
+    display: none;
+}
+
+@media screen and (max-width: 945px) {
+    .picture_type_down {
+        margin: 0;
+        width: 242px;
+        display: block;
+    }
+}

@@ -1,0 +1,10 @@
+.form__promo {
+    margin: 0;
+    margin-top: 23px;
+    margin-bottom: 36px;
+    max-width: 577px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}

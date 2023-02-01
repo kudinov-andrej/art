@@ -1,0 +1,18 @@
+.cours__skills {
+    margin: 0;
+    padding: 0;
+    max-width: 1445px;
+    margin-left: 13.77%;
+    margin-right: 13.77%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+@media screen and (max-width: 929px) {
+    .cours__skills {
+        grid-template-columns: 1fr;
+        align-self: center;
+    }
+}

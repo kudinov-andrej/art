@@ -1,0 +1,17 @@
+.form__button {
+    width: 458px;
+    align-self: center;
+    height: 60px;
+    background: #E2521D;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 505px) {
+    .form__button {
+        max-width: 301px;
+
+    }
+}

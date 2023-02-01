@@ -1,0 +1,13 @@
+.education__skills {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 929px) {
+    .education__skills {
+
+        grid-template-columns: 1fr;
+    }
+}

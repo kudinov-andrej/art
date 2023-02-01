@@ -1,0 +1,12 @@
+.everybady__img {
+    display: none;
+}
+
+@media screen and (max-width: 945px) {
+    .everybady__img {
+        display: block;
+        max-width: 300px;
+        align-self: center;
+        margin-top: 17px;
+    }
+}

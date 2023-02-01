@@ -1,0 +1,11 @@
+.bonus__img {
+    max-width: 42px;
+    margin-right: 49px;
+}
+
+@media screen and (max-width: 929px) {
+    .bonus__img {
+        margin-right: 36px;
+
+    }
+}

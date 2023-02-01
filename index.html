@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html class="page" lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./pages/pages.css">
 </head>
-
 <body class="body">
     <header class="header">
         <div class="header__logo"></div>
     </header>
-    <main class="content">
+    <main class="content" id="content">
         <section class="art">
             <h1 class="art__title">КОНЦЕПТ АРТ</h1>
             <p class="art__subtitle">Научись мыслить, как концепт-художник, придумывать и воплощать в жизнь оригинальные
                 идеи</p>
-            <button class="art__button" type="button">записаться на курс</button>
+            <a class="button__link" href="#form__bodyId"><button class="art__button" type="button">записаться на курс</button></a>
         </section>
         <section class="qwestion">
             <img class="qwestion__picture picture_type_up" src="./image/eva.png" alt="Изображение робата Евы">
@@ -134,7 +133,7 @@
                     </p>
                 </div>
             </div>
-            <button class="cours__button" type="button"><p>записаться на курс</p><p class="cours__button-text">2 месяца</p></button>
+            <a class="button__link" href="#form__bodyId"><button class="cours__button" type="sabmit"><p>записаться на курс</p><p class="cours__button-text">2 месяца</p></button></a>
             <div class="cours__bonus">
                 <div class="bonus__item">
                     <img class="bonus__img" src="./image/Tick Square.png" alt="чекпоинт">
@@ -153,13 +152,15 @@
         <section class="form">
             <p class="form__promo">Только сегодня доступ к курсу за <span class="form__span-red">29 руб</span>*. вместо <span class="form__span-grey">2900 руб.</span></p>
             <p class="form__text">Заполните форму, чтобы получить доступ к курсу</p>
-            <form class="form__body">
+            <form class="form__body" id="form__bodyId">
                 <input type="email"  class="form__input" placeholder="Ваш email:" autofocus required>
+                <span class="form__error"></span>
                 <button type="submit" class="form__button">Получить доступ</button>
                 <div class="form__place-checkbox">
                   <input type = "checkbox" class="form__checkbox" required>
-                  <label for="form__checkbox" class="checkbox__text"> Даю согласие на обработку персональных данных, а также ознакомлен с публичной офертой и тарифами </label>   
+                  <label for="form__checkbox" class="form__checkbox-text"> Даю согласие на обработку персональных данных, а также ознакомлен с публичной офертой и тарифами </label>
                 </div>
+                <span class="form__error"></span> 
             </form>
             </p>
         </section>
@@ -172,17 +173,17 @@
             Тел.: +7(995) 233 80 09
             E-mail: support@iqmo.ru</p>
         <div class="footer__pay">
-            <p class="pay__text">Принимаем к оплате:</p>
-            <img class="pay__img" src="./image/fmc 1.png" alt="логотип платежной системы">
-            <img class="pay__img" src="./image/fmir 1.png" alt="логотип платежной системы">
-            <img class="pay__img" src="./image/fvisa 1.png" alt="логотип платежной системы">
+            <p class="footer__pay-text">Принимаем к оплате:</p>
+            <img class="footer__pay-img" src="./image/fmc 1.png" alt="логотип платежной системы">
+            <img class="footer__pay-img" src="./image/fmir 1.png" alt="логотип платежной системы">
+            <img class="footer__pay-img" src="./image/fvisa 1.png" alt="логотип платежной системы">
         </div>
         <ul class="footer__links">
-            <li class="footer_link">Политика конфиденциальности</li>
-            <li class="footer_link">Оферта</li>
-            <li class="footer_link">Отменить подписку</li>
-            <li class="footer_link">Политика обработки данных</li>
-            <li class="footer_link">Тарифы</li>
+            <li class="footer__link">Политика конфиденциальности</li>
+            <li class="footer__link">Оферта</li>
+            <li class="footer__link">Отменить подписку</li>
+            <li class="footer__link">Политика обработки данных</li>
+            <li class="footer__link">Тарифы</li>
         </ul>
     </footer>
 </body>

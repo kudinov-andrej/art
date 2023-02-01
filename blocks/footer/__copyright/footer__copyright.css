@@ -1,0 +1,20 @@
+.footer__copyright {
+    margin: 0;
+    max-width: 223px;
+    margin-right: 12%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 677px) {
+    .footer__copyright {
+        margin-bottom: 20px;
+
+    }
+}
