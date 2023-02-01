@@ -11,23 +11,21 @@ const programStepThree = document.querySelector('.program__punct_step_three');
 const programPunctThree = programStepThree.querySelector('.program__punct');
 const programMenuThree = programStepThree.querySelector('.program__menu');
 const buttonCloseThree = programStepThree.querySelector('.program__button');
+const buttonSend = document.querySelector(".form__button")
+const page = document.querySelector('.page')
+const buttonEnrollToCoursArt = document.querySelector('.art__button')
+const buttonEnrollToCoursCours = document.querySelector('.cours__button')
 
-// функция открытия/закрытия выпадающего меню
 
 function openCloseMenu(element, item, color) {
-   
+
   element.classList.toggle('program__menu_type_active');
   item.classList.toggle('program__button_type_aktive');
-  color.classList.toggle('program__punct_type_aktive'); 
+  color.classList.toggle('program__punct_type_aktive');
 
 
 };
 
-// функция плавного скролла
-
-const page = document.querySelector('.page')
-const buttonEnrollToCoursArt = document.querySelector('.art__button')
-const buttonEnrollToCoursCours = document.querySelector('.cours__button')
 
 function enableSmoothScroll() {
   page.classList.add("page-scrole-on");
@@ -38,7 +36,17 @@ function switchOffSmoothScroll() {
   page.classList.remove("page-scrole-on");
 }
 
+function sendForm() {
+  const buttonSend = document.querySelector(".form__button")
+  const inputText = document.querySelector(".form__input")
+  inputText.value = " "
+  buttonSend.classList.add('form__button_disabled');
+  buttonSend.disabled = true;
+  alert("Поздравляем! Заявка на обучение принята!");
 
+}
+
+buttonSend.addEventListener('click', () => sendForm());
 buttonEnrollToCoursArt.addEventListener('click', () => enableSmoothScroll());
 buttonEnrollToCoursCours.addEventListener('click', () => enableSmoothScroll());
 buttonCloseThree.addEventListener('click', () => openCloseMenu(programMenuThree, buttonCloseThree, programPunctThree));

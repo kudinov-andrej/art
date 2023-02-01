@@ -7,3 +7,12 @@
     color: #FF0000;
     vertical-align: top;
 }
+
+@media screen and (max-width: 505px) {
+    .form__error {
+        max-width: 301px;
+        min-width: 301px;
+
+
+    }
+}

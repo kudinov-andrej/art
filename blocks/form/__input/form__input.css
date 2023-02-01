@@ -6,10 +6,12 @@
     max-width: 458px;
     min-height: 60px;
     background: #393C57;
-    border: 1px solid #E2521D;
+    border: 1px solid green;
     border-radius: 8px;
     color: aliceblue;
     font-size: 24px;
+    outline: 0;
+    outline-offset: 0;
 
 }
 
@@ -20,4 +22,9 @@
 
 
     }
+}
+
+.form__error_visible {
+    border: 1px solid red; 
+    
 }

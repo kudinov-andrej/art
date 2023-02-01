@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art</title>
-    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./pages/pages.css">
 </head>
 <body class="body">
@@ -152,20 +151,21 @@
         <section class="form">
             <p class="form__promo">Только сегодня доступ к курсу за <span class="form__span-red">29 руб</span>*. вместо <span class="form__span-grey">2900 руб.</span></p>
             <p class="form__text">Заполните форму, чтобы получить доступ к курсу</p>
-            <form class="form__body" id="form__bodyId">
-                <input type="email"  class="form__input" placeholder="Ваш email:" autofocus required>
-                <span class="form__error"></span>
-                <button type="submit" class="form__button">Получить доступ</button>
+            <form class="form__body" id="form__bodyId" novalidate>
+                <input type="email"  class="form__input form__input-validation" id="form__input" placeholder="Ваш email:" maxlength="50">
+                <span class="form__error form__input-error"></span>
+                <input type="submit" class="form__button" value="Получить доступ" disabled />
                 <div class="form__place-checkbox">
-                  <input type = "checkbox" class="form__checkbox" required>
+                  <input type = "checkbox" class="form__checkbox form__input-validation" id="form__input-checkbox" required>
                   <label for="form__checkbox" class="form__checkbox-text"> Даю согласие на обработку персональных данных, а также ознакомлен с публичной офертой и тарифами </label>
                 </div>
-                <span class="form__error"></span> 
+                <span class="form__error form__input-checkbox-error"></span> 
             </form>
             </p>
         </section>
     </main>
-    <script src="./index.js"></script>
+    <script src="./script/index.js"></script>
+    <script src="./script/validation.js"></script>
     <footer class="footer">
         <p class="footer__copyright">IQMO.RU — Все права защищены
             ИНН: 032356620546

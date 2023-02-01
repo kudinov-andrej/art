@@ -1,0 +1,5 @@
+.form__button_disabled {
+    background: gray;
+    cursor: inherit;
+    opacity: 1;
+}
