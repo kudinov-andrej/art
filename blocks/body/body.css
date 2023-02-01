@@ -21,7 +21,7 @@
 @media screen and (max-width: 800px) {
     .body {
         max-width: 930px;
-        background-image: url(./image/fon\ 2фф.png);
+        background-image: url(../../image/fon\ 2фф.png);
         background-position: right top;
     }
 }
