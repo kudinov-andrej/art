@@ -49,8 +49,8 @@ function sendForm() {
   buttonSend.classList.add('form__button_disabled');
   buttonSend.disabled = true;
   popup.classList.add("popup-opened");
-
 }
+
 popupButtonClose.addEventListener('click', () => closePopup());
 buttonSend.addEventListener('click', () => sendForm());
 buttonEnrollToCoursArt.addEventListener('click', () => enableSmoothScroll());
