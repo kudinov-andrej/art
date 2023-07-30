@@ -15,8 +15,9 @@ const buttonSend = document.querySelector(".form__button")
 const page = document.querySelector('.page')
 const buttonEnrollToCoursArt = document.querySelector('.art__button')
 const buttonEnrollToCoursCours = document.querySelector('.cours__button')
-
-
+const popup = document.querySelector('.popup')
+const popupButtonClose = document.querySelector('.popup__button-close')
+console.log(popup)
 function openCloseMenu(element, item, color) {
 
   element.classList.toggle('program__menu_type_active');
@@ -36,16 +37,21 @@ function switchOffSmoothScroll() {
   page.classList.remove("page-scrole-on");
 }
 
+function closePopup() {
+  popup.classList.remove("popup-opened");
+}
+
+
 function sendForm() {
   const buttonSend = document.querySelector(".form__button")
   const inputText = document.querySelector(".form__input")
   inputText.value = " "
   buttonSend.classList.add('form__button_disabled');
   buttonSend.disabled = true;
-  alert("Поздравляем! Заявка на обучение принята!");
+  popup.classList.add("popup-opened");
 
 }
-
+popupButtonClose.addEventListener('click', () => closePopup());
 buttonSend.addEventListener('click', () => sendForm());
 buttonEnrollToCoursArt.addEventListener('click', () => enableSmoothScroll());
 buttonEnrollToCoursCours.addEventListener('click', () => enableSmoothScroll());

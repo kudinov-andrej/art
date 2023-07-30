@@ -1,0 +1,16 @@
+.popup__img {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    max-width: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .popup__img {
+        max-width: 200px;
+    }
+}

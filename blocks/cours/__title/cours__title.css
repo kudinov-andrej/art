@@ -10,7 +10,12 @@
 
 @media screen and (max-width: 945px) {
     .cours__title {
-        max-width: 90%;
-        align-self: center;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cours__title {
+        max-width: 250px;
     }
 }
