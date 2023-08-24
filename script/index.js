@@ -59,4 +59,43 @@ buttonCloseThree.addEventListener('click', () => openCloseMenu(programMenuThree,
 buttonCloseTwo.addEventListener('click', () => openCloseMenu(programMenuTwo, buttonCloseTwo, programPunctTwo));
 buttonClose.addEventListener('click', () => openCloseMenu(programMenu, buttonClose, programPunct));
 
+// задачи
+
+function sumNumber(a, b) {
+  return a + b;
+}
+
+console.log(sumNumber(10, 15))
+
+function sumNumbers(a, b) {
+  return a + b;
+}
+
+const result = sumNumbers(4, 8);
+console.log(result);
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+let a, b;
+
+
+rl.question('Введите числа A и B, разделенные пробелом: ', input => {
+  const numbers = input.split(' ').map(Number);
+  a = numbers[0];
+  b = numbers[1];
+
+  // Вычисляем сумму
+  const sum = a + b;
+
+  // Выводим результат
+  console.log(sum);
+
+  rl.close();
+});
+
 
